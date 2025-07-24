@@ -1,0 +1,31 @@
+header{
+    background-color: rgb(146, 76, 227);
+    
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 40px;
+}
+.logo {
+text-align: center;
+  font-size: 39px;       /* Increase this number as needed */
+  font-weight: bold;
+  color: #fff;           /* Or any color that matches your header */
+  letter-spacing: 1px;   /* Optional: more spacing between letters */
+}
+nav a{
+    color: #fff;
+    background-color: rgb(42, 151, 209);
+    padding: 10px 16px;
+    margin-left: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ,color 0.3s;
+
+
+}
+nav a:hover{
+    background-color: #fff;
+    color: rgb(42, 151, 209);
+}
+

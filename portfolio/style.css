@@ -1,0 +1,57 @@
+h1{
+   text-align: center;
+}
+body{
+    #background-color:rgb(138, 219, 224); ;
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+  align-items: stretch; /* makes all cards same height */
+}
+
+.project-card {
+  background-color: rgb(42, 151, 209);
+  color: white;
+  padding: 20px;
+  width: 300px;
+
+  display: flex;
+  flex-direction: column; /* aligns title + description vertically */
+  justify-content: space-between;
+
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 280px; /* ensures equal height */
+}
+
+.project-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+nav a.nav-btn{
+    display: inline-block;
+    margin-left: 15px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: rgb(42, 151, 209);
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s,color 0.3s;
+
+}
+nav a.nav-btn:hover{
+    background-color:rgb(42, 151, 209);
+    color: #fff;
+}
+header{
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: #fff;
+}
